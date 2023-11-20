@@ -6,6 +6,10 @@ loveScore = Math.floor((loveScore * 100) + 1)
 
 if (loveScore > 70) {
     alert(" you match " + loveScore + "%. You love each other like Kanye loves Kanye");
-} else {
-    alert(" you match " + loveScore + "%. ");
+} 
+if (loveScore > 30 && loveScore <= 70) {
+    alert(" you match " + loveScore + "%.");
+} 
+else {
+    alert(" you match " + loveScore + "%. You go together like water and oil");
 }
