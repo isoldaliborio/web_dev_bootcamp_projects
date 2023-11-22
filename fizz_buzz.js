@@ -7,6 +7,7 @@ For numbers which are multiples of both three and five print "FizzBuzz". */
 var output = [];
 
 function fizzBuzz() {
+    // while (count <=100) or you can do like below. 
     for (var count = 1; count <=100; count++) {
         if (count % 3 === 0 && count % 5 === 0) {
             output.push("FizzBuzz");
